@@ -66,8 +66,16 @@ Use [GitHub Issues](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/i
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
+## Disclaimer
+
+This is an unofficial fan-made/open-source project. It is not affiliated with, endorsed by, sponsored by, or approved by Capcom or Nintendo. Capcom, Legendary Wings, and related names, characters, music, artwork, and assets are trademarks and/or copyrights of Capcom. No Nintendo-owned game assets are included in this repository. You must provide your own legally obtained ROM.
+
+This project was intended to be a faithful recreation or port first, and a mod second. If you are unhappy with the changes or the progress so far, press **F6** to switch to the original graphics and play with the original presentation.
+
+I will update the project when I can. So far, the first level is complete enough to satisfy me, although there is still room for improvement. Please report any bugs through [GitHub Issues](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/issues/new/choose), and we can make it better together.
+
 ## Credits and licensing
 
 Modded by **retro-replay.com**. Project author: **dmb062082**.
 
-Built with [NESRecomp](https://github.com/mstan/nesrecomp) and [SDL2](https://www.libsdl.org/). Their license notices must accompany the corresponding components in a distribution. This repository does not grant a license to the original game's ROM or assets; the original game and its intellectual property belong to their respective owners. This is an unofficial fan project and is not affiliated with or endorsed by Capcom or Nintendo.
+Built with [NESRecomp](https://github.com/mstan/nesrecomp) and [SDL2](https://www.libsdl.org/). Their license notices must accompany the corresponding components in a distribution. This repository does not grant a license to the original game's ROM or assets; the original game and its intellectual property belong to their respective owners.
