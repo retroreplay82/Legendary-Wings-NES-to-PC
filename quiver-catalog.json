@@ -1,0 +1,19 @@
+{
+  "name": "Legendary Wings PC",
+  "description": "Legendary Wings PC releases by Retro Replay. Requires your own compatible ROM.",
+  "version": "1.0.0",
+  "apps": [
+    {
+      "name": "Legendary Wings",
+      "project": "Legendary Wings PC",
+      "repository": "retroreplay82/Legendary-Wings-NES-to-PC",
+      "folderName": "LegendaryWings-LegendaryWingsPC",
+      "appIconUrl": "https://raw.githubusercontent.com/retroreplay82/Legendary-Wings-NES-to-PC/main/docs/images/title-screen.png",
+      "tags": [
+        "recomp",
+        "nes"
+      ],
+      "releaseAssetFilter": "windows-x64"
+    }
+  ]
+}
