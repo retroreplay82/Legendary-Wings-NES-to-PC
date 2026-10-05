@@ -1,24 +1,40 @@
-# Legendary-Wings-NES-to-PC
-A native Windows port of Legendary Wings with revamped artwork and faithful gameplay. Requires your own compatible NES ROM; no ROM or extracted ROM assets included.
+# Legendary Wings NES to PC
 
-Legendary Wings PC
+<p align="center">
+  <img src="docs/images/title-screen.png" alt="Legendary Wings remastered title screen" width="900">
+</p>
 
-A Windows port of Legendary Wings with refreshed artwork and the original gameplay.
+A native Windows port of **Legendary Wings** with refreshed artwork and faithful gameplay. Switch between the original graphics and the remastered presentation while playing.
 
 **Author:** dmb062082  
-**Website:** [Retro Replay](https://retro-replay.com)
+**Website:** [Retro Replay](https://retro-replay.com)  
+**Status:** Work in progress — the remaster currently focuses on the first level.
+
+[Releases](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases) · [Report a bug](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/issues/new/choose) · [Request a feature](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/issues/new/choose)
+
+## What is included
+
+- Refreshed first-level environments, characters, and title-screen artwork.
+- **F6** switches between original and remastered graphics without restarting your game.
+- Optional animated water, toggled with **F5**; it starts **off**.
+- Save and load states with **F8** and **F9**.
+- A Windows game window that launches without a console window behind it.
 
 ## Work in progress
 
-This is an early beta. The remaster currently focuses on the first level; later levels have not received the same artwork overhaul and may still show original graphics. Future updates will expand the remaster to later levels and continue improving artwork, transitions, and compatibility.
+This is an early beta project. Really only the first level has received the main remaster work so far. Later levels may still use original graphics, and some first-level details are still being refined. Future updates will improve the artwork and transitions, expand the remaster to later levels, and address reported bugs.
+
+No downloadable Windows release has been published yet. When a package is ready, it will appear on the [Releases page](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases). The repository's **Code → Download ZIP** option is not a playable Windows release.
 
 ## Getting started
 
-1. Extract the Windows release into its own folder.
+When a Windows release is available:
+
+1. Download its Windows ZIP from the Releases page and extract it into its own folder.
 2. Place your compatible **Legendary Wings (USA).nes** file in the **roms** folder beside **LegendaryWings.exe**.
 3. Launch **LegendaryWings.exe**. Keep **SDL2.dll** and the **assets** folder beside it.
 
-You must supply your own ROM. No ROM files or extracted ROM assets are included in the public distribution.
+You must supply your own compatible ROM. **No ROM files or extracted ROM assets are included in the public distribution.** Do not upload ROMs to this repository or attach them to issues.
 
 ## Keyboard controls
 
@@ -29,24 +45,29 @@ You must supply your own ROM. No ROM files or extracted ROM assets are included 
 | Z | Bomb / jump, depending on the section |
 | Enter | Start / pause |
 | Backslash (`\`) | Select |
-| **F5** | Toggle water animation on / off (starts off) |
-| **F6** | Switch between original graphics and the remastered presentation |
+| **F5** | Toggle water animation on / off — starts off |
+| **F6** | Switch between original and remastered graphics |
 | **F8** | Save state |
 | **F9** | Load the saved state |
 | F11 | Toggle fullscreen |
 | F12 | Take a screenshot |
 
-Water animation starts **off**. Press **F5** to turn it on; press F5 again to turn it off.
+F6 changes only the presentation and keeps your current gameplay progress. Remastered artwork appears where it has been completed.
 
-F6 changes the presentation while keeping your current gameplay progress. Remastered artwork is available where it has been completed.
+Save states use one slot per ROM in the **saves** folder beside the executable. Saving again replaces the previous state. Loading replaces your current progress with the saved point. Back up your saves before updating; compatibility between builds is not guaranteed.
 
-Save states use one slot per ROM and are stored in the **saves** folder beside the executable. Saving again replaces the previous state. Loading returns you to the saved point, replacing your current progress. Back up your saves before updating; compatibility between builds is not guaranteed.
+## Quiver Launcher
+
+Support for [Quiver Launcher](https://quiverlauncher.com/) is planned. A compatible release and catalog will be published after download and installation have been verified. This is not currently a verified Quiver install.
 
 ## Feedback
 
-Please report problems through GitHub Issues. Include the build version, the level or section, and the steps needed to reproduce the problem.
+Use [GitHub Issues](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/issues/new/choose) to report bugs or suggest improvements. Include the build version, the level or section, whether you were using original or remastered graphics, and the steps needed to reproduce the problem. Screenshots are helpful. Please keep ROM files and private information out of reports.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## Credits and licensing
 
-Built with [NESRecomp](https://github.com/mstan/nesrecomp) and SDL2. Their license notices are retained with the distribution. The original game and its intellectual property belong to their respective owners.
+Modded by **retro-replay.com**. Project author: **dmb062082**.
 
+Built with [NESRecomp](https://github.com/mstan/nesrecomp) and [SDL2](https://www.libsdl.org/). Their license notices must accompany the corresponding components in a distribution. This repository does not grant a license to the original game's ROM or assets; the original game and its intellectual property belong to their respective owners. This is an unofficial fan project and is not affiliated with or endorsed by Capcom or Nintendo.

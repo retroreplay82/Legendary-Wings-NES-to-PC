@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a gameplay, artwork, or launch problem.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Build version
+      placeholder: Version or executable filename
+    validations:
+      required: true
+  - type: dropdown
+    id: graphics
+    attributes:
+      label: Graphics mode
+      options:
+        - Remastered
+        - Original
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows version and launch method
+      placeholder: Windows 11, launched with the EXE
+  - type: input
+    id: section
+    attributes:
+      label: Level or section
+      placeholder: First level, organic corridor
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Describe what you did and whether you loaded a save state.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Screenshots are welcome. Do not attach ROMs or private information.
+    validations:
+      required: true

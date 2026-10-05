@@ -1,0 +1,17 @@
+name: Feature or artwork suggestion
+description: Suggest an improvement to the project.
+title: "[Suggestion]: "
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+      description: Explain the improvement and the level or section it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this help?
+    validations:
+      required: true
