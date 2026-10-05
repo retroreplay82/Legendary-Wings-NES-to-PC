@@ -23,11 +23,9 @@ A native Windows port of **Legendary Wings** with refreshed artwork and faithful
 
 This is an early beta project. Really only the first level has received the main remaster work so far. Later levels may still use original graphics, and some first-level details are still being refined. Future updates will improve the artwork and transitions, expand the remaster to later levels, and address reported bugs.
 
-No downloadable Windows release has been published yet. When a package is ready, it will appear on the [Releases page](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases). The repository's **Code → Download ZIP** option is not a playable Windows release.
+[Download the Windows beta](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases/download/v0.1.0-beta.1/LegendaryWings-windows-x64-beta.1.zip), or see the [release notes](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases/tag/v0.1.0-beta.1). The repository's **Code → Download ZIP** option is not a playable Windows release.
 
 ## Getting started
-
-When a Windows release is available:
 
 1. Download its Windows ZIP from the Releases page and extract it into its own folder.
 2. Place your compatible **Legendary Wings (USA).nes** file in the **roms** folder beside **LegendaryWings.exe**.
@@ -57,7 +55,14 @@ Save states use one slot per ROM in the **saves** folder beside the executable. 
 
 ## Quiver Launcher
 
-Support for [Quiver Launcher](https://quiverlauncher.com/) is planned. A compatible release and catalog will be published after download and installation have been verified. This is not currently a verified Quiver install.
+A catalog source is available for [Quiver Launcher](https://quiverlauncher.com/):
+
+1. Open **App Catalog → Add Source**.
+2. Add `https://raw.githubusercontent.com/retroreplay82/Legendary-Wings-NES-to-PC/main/quiver-catalog.json`.
+3. Review the source, add **Legendary Wings** to your library, and download it.
+4. Open the installed game folder and place your own **Legendary Wings (USA).nes** in **roms**, then launch the game.
+
+The catalog selects the Windows x64 release ZIP. The public download matches the tested package; installation through Quiver itself has not yet been verified.
 
 ## Feedback
 
