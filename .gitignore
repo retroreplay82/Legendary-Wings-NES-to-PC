@@ -1,17 +1,14 @@
-# Local copyrighted inputs and ROM-derived outputs
 *.nes
 *.fds
-*.rom
 *.state
-*.sav
-*.bin
-roms/
-generated/
-build/
-vendor/
-.codex-remote-attachments/
-# Private screenshots, previews and audit backups
-*preview*
-*fixture*
-qa/
 *.zip
+*.exe
+*.dll
+/build/
+/generated/
+/roms/*
+!/roms/README.txt
+/assets/
+/vendor/zig-*/
+/saves/
+/screenshots/

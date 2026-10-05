@@ -1,0 +1,15 @@
+[game]
+name = "Legendary Wings"
+output_prefix = "wings"
+cycle_accurate = true
+cycle_seed_file = "coverage/seeds.txt"
+
+[[mod_function_hook]]
+id = "wings.terrain-grace-x"
+addr = 0xB299
+bytes = "D0 4A A0 F8"
+
+[[mod_function_hook]]
+id = "wings.terrain-grace-y"
+addr = 0xB300
+bytes = "F0 13 BD 50 05"

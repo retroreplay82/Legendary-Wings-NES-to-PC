@@ -1,0 +1,3 @@
+[submodule "vendor/nesrecomp"]
+	path = vendor/nesrecomp
+	url = https://github.com/mstan/nesrecomp.git

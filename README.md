@@ -21,7 +21,7 @@ A native Windows port of **Legendary Wings** with refreshed artwork and faithful
 
 ## Work in progress
 
-This is an early beta project. Really only the first level has received the main remaster work so far. Later levels may still use original graphics, and some first-level details are still being refined. Future updates will improve the artwork and transitions, expand the remaster to later levels, and address reported bugs. (AI used at times)
+This is an early beta project. Really only the first level has received the main remaster work so far. Later levels may still use original graphics, and some first-level details are still being refined. Future updates will improve the artwork and transitions, expand the remaster to later levels, and address reported bugs.
 
 [Download the Windows beta](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases/download/v0.1.0-beta.1/LegendaryWings-windows-x64-beta.1.zip), or see the [release notes](https://github.com/retroreplay82/Legendary-Wings-NES-to-PC/releases/tag/v0.1.0-beta.1). The repository's **Code → Download ZIP** option is not a playable Windows release.
 
@@ -32,6 +32,10 @@ This is an early beta project. Really only the first level has received the main
 3. Launch **LegendaryWings.exe**. Keep **SDL2.dll** and the **assets** folder beside it.
 
 You must supply your own compatible ROM. **No ROM files or extracted ROM assets are included in the public distribution.** Do not upload ROMs to this repository or attach them to issues.
+
+## Build from source
+
+The game-specific source is available in this repository. See [BUILDING.md](BUILDING.md) for Windows setup and build instructions. You must supply your own ROM; generated ROM code and build output are not included.
 
 ## Keyboard controls
 
