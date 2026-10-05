@@ -35,4 +35,4 @@ The source ZIP from GitHub does not contain submodule contents. `setup.ps1` can 
 
 ## Licensing
 
-See `THIRD-PARTY-NOTICES.txt` for dependency licenses, including NESRecomp's PolyForm Noncommercial license. No separate permissive license has been assigned to the project-specific code or artwork. Publishing this source does not grant rights to the original game's ROM, music or artwork. Do not upload ROMs, extracted ROM assets, generated ROM code, save states, credentials or build output.
+See `THIRD-PARTY-NOTICES.txt` for dependency licenses, including NESRecomp's PolyForm Noncommercial license. Original project contributions are licensed under [MIT](LICENSE); artwork is excluded. See [LICENSING.md](LICENSING.md) for scope. The complete game remains subject to NESRecomp's noncommercial terms. Publishing this source does not grant rights to the original game's ROM, music or artwork. Do not upload ROMs, extracted ROM assets, generated ROM code, save states, credentials or build output.
