@@ -18,7 +18,6 @@ A native Windows port of **Legendary Wings** with refreshed artwork and faithful
 - **F6** switches between original and remastered graphics without restarting your game.
 - Optional animated water, toggled with **F5**; it starts **off**.
 - Save and load states with **F8** and **F9**.
-- A Windows game window that launches without a console window behind it.
 
 ## Work in progress
 
